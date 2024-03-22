@@ -1,0 +1,38 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(164, 187, 230);
+    padding: 40px;
+    border-radius: 8px;
+    
+}
+.about-container-content{
+    display: flex;
+    justify-content: center;
+    gap:25px;
+    width: 100%;
+    max-width: 1450px;
+
+}
+
+.about-content-texts{
+    width: 43%;
+    max-width:850px;
+}
+
+.about-image{
+    width: 49%;
+    max-width: 850px;
+    border-radius: 8px;
+   
+}
+h4{
+    margin:2.5% 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+p{
+    margin: 0 0 0 1%;
+}

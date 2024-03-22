@@ -1,0 +1,792 @@
+/*Gneral*/
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+	font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+	display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #f0f0f0!important;
+  color: black !important;
+}
+
+p{
+	color: black!important;
+	font-size: 16px!important;
+}
+
+li{
+	color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0!important;
+    padding: 0;
+}
+a{
+  text-decoration: none!important;
+  /*color: black!important;*/
+}
+
+/*Nav bar Vincenzo*/
+.collapse.navbar-collapse{
+  justify-content: end;
+}
+
+/*Header Section*/
+header{
+    /* position: absolute; */
+    width: 99%;
+    height: 100%;
+    max-height: 60px;
+    max-width:1800px;
+    max-height: 900px;
+}
+
+.header__container{
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+    width: 99%;
+    height: 70px;
+    margin-top: 25px;
+}
+
+.logo-Prog{
+  width: 35px;
+  height: 35px;
+}
+
+.header__nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.header__burger-search {
+    display: block;
+    height: 24px;
+    width: 24px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    fill: white;
+    cursor: pointer;
+}
+
+.header__menu{
+    display: flex;
+    color: blue;
+    flex-grow: 1;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.link{
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/*Category-List-Section*/
+
+.category-section{
+  background-color:rgb(164, 187, 230);
+  height: 47px;
+  color: black!important;
+}
+
+
+
+.category-listsection {
+  display: flex;
+  align-items: center;
+  color: blue;
+  justify-content: space-around;
+  font-weight: 400;
+  font-size: 18px;
+  height: 100%;
+} 
+
+.line{
+  width: 100%;
+  height: 1px;
+  background-color: rgb(182, 182, 182);;
+}
+
+/*Hero section Iniziale*/
+
+.hero-section{
+    padding: 272px 0;
+    background-image: linear-gradient(103deg,
+    rgba(18, 18, 17, 0.78) 2.03%,
+    rgba(18, 18, 17, 0.60) 58.46%,
+    rgba(18, 18, 17, 0.00) 90.36%),
+    url('../img-sfondo/vivalatecnologia.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.hero-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container{
+    display: flex!important;
+    width: 100%!important;
+    max-width: 1450px!important;
+    flex-direction: column!important;
+    justify-content: center!important;
+    /* margin-left: 50px ; */
+}
+
+.hero-iniziale-title2{
+	font-size: 42px;
+	font-weight: 500;
+}
+
+.hero-iniziale-title{
+	font-size: 48px;
+	font-weight: 700;
+}
+
+.hero-iniziale-content-text, .hero-iniziale-title, .hero-iniziale-title2{
+	color:rgb(164, 187, 230);
+}
+
+.hero-iniziale-content-text{
+	margin-bottom: 0;
+	font-size: 20px;
+}
+
+/*Caruser-Hero-Section*/
+.hero-section-loggato{
+  display: flex;
+  justify-content: center;
+  margin: 5px 0 5px 0; 
+}
+#carouselExampleFade{
+  width: 100%;
+  max-width: 1500px;
+
+  
+}
+
+/*Sponsor-home-iniziale-section*/
+.sponsor-section-list-section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(164, 187, 230);
+ width: 100%;
+  height: 75px;
+  border-radius: 0 0 8px 8px;
+}
+
+
+
+.sponsor-section-list-item{
+  font-weight: 600;
+  font-size: 24px;
+  color: #ccc;
+}
+
+/*Servizio section*/
+.service_section{
+  margin:40px 0 40px 0;
+}
+
+
+/*Servizio section*/
+
+.service-auto-section{
+    width: 100%;
+  align-items: center;
+  background-color: rgb(164, 187, 230);
+  padding: 48px 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.evidence-section{
+	background-color: rgb(164, 187, 230);
+	padding: 20px 0;
+	border-radius: 10px;
+}
+
+.tv_section__container {
+    /* display: flex; */
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.tv_section-container-primary{
+	padding: 48px 0;
+}
+
+.service-section-container-primary{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tv_section__slider {
+    /* Nasconde le slide extra */
+    display: flex;
+    width: 100%;
+    
+    justify-content: center;
+    /* Allinea le slide a sinistra */
+    align-items: center;
+    gap: 10px;
+}
+
+.custom-carousel{
+	border-radius: 10px;
+	border: 2px solid rgb(164, 187, 230);
+}
+
+.swiper-slide {
+    flex: 0 0 auto;
+    /* Impedisce alle slide di espandersi per riempire lo spazio */
+    width: 100%;
+   height: 101px;
+    /* Imposta la larghezza desiderata di ogni slide */
+    margin-right: 10px;
+}
+
+.tv-card {
+    position: relative;   
+    width: 79%;
+    min-height: 320px;
+    height: 99.9%;
+    max-height: 400px;
+    border: 2px solid gray;
+    border-radius: 13px;
+    overflow: hidden;
+    color: antiquewhite;
+    gap: 2px;
+    margin: 10px 0;
+    background: url(../images/sfondo-card3.png);
+    background-size: cover;
+    }
+
+.tv-text{
+	padding: 0 10px!important;
+}
+
+.servizio-section-tittle{
+  margin-left: 85px;
+  color: black;
+}
+
+.tv_section__list {
+    display: flex;
+    flex-wrap: nowrap;
+    /* Impedisce il wrapping delle slide */
+}
+
+.card{
+	border-radius: 12px!important;
+	background: url(../images/sfondo-card3-small.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+	border: 2px solid #b7b7b7!important;
+}
+
+
+.gestore-servizi-section-image{
+	border-radius: 10px!important;
+	border: 1px solid #b7b7b7;
+}
+
+.foto-img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.section-image {
+    width: 100%;
+    height: 100%;
+    max-height: 180px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+/*.section-image:hover{
+  border: 2px solid blue;
+}*/
+
+.card-img-div{
+  width: 100%;
+  height: 180px;
+  border: 2px solid red;
+}
+
+.img-section-card{
+display: flex;
+gap: 8px;
+align-items: center;
+}
+
+/*Carousel button section*/
+.carousel-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+
+.carousel-button.next, .next1, .next2{
+    transform: rotate(180deg);
+}
+
+.carousel-button:hover{
+    background-color: transparent;
+    fill: blueviolet;
+}
+
+.is-hidden{
+    visibility: hidden;
+}
+
+/*Lista servizi che appare*/
+
+.category-auto, .category-public, .category-digital  {
+  padding: 9px 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.services-list {
+  display: none; 
+  position: absolute;
+  left: 26%;
+  transform: translateX(-50%);
+  width: 20%;
+ 
+  max-width: 600px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid gray;
+  border-radius: 0;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.services-list1 {
+  display: none; 
+  position: absolute;
+  right: 25%;
+  transform: translateX(50%);
+  width: 20%;
+ 
+  max-width: 600px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid gray;
+  border-radius: 0;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.service-text{
+	margin-right: 45px;
+	
+}
+
+#auto-services{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.category-public-table{
+	
+}
+
+.category-auto:hover,.services-list,.category-public-table{
+  display: block;
+  
+}
+
+.category-public-table{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/**/
+
+
+/*Login-Register*/
+
+.myform {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.modal-body {
+  padding: 0px;
+
+}
+
+.btn-close {
+  position: absolute;
+  right: 0;
+  padding: 1em;
+}
+
+.modal-content {
+  width: 80%;
+  margin: 0px auto;
+  background-color: transparent!important; /*riattivare se non si vogliono i bordi in login/register*/
+}
+
+.modal-body {
+  padding: 0px;
+}
+
+.login-text {
+  /*font-size: 2.3em;*/
+  font-weight: bold;
+}
+
+.myform {
+  padding: 2em;
+  max-width: 100%;
+  color: black;
+  box-shadow: 0 4px 6px 0px black;
+
+  @media(max-width: 576px) {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.myform .btn {
+  width: 100%;
+  font-weight: 600;
+  background-color: rgb(19, 103, 207);
+  border-radius: 2px;
+  padding: 0.5em 0;
+}
+
+.myform .btn:hover {
+  color: black;
+}
+
+.notmember {
+  text-align: center;
+  padding-top: 2em;
+  color: grey;
+}
+
+.notmember a {
+  text-decoration: none;
+}
+
+.pdescr {
+  text-align: center;
+}
+
+.side-image {
+  background-image: url("/immagini/FotoLogin2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px 0 0 10px;
+  position: relative;
+}
+
+/*Profilo section*/
+
+.profilo-container{
+	display: flex;
+	flex-direction: column;
+}
+
+.text-muted{
+	
+	margin-right:34px;
+}
+
+.cristo{
+	display: visible!important;
+}
+
+/*GEstore servizzi Amministratore*/
+.gestore-servizi-card-container{
+	min-width: 360px!important;
+	max-width: 360px!important;
+	 min-height: 350px!important;
+	 max-height: 350px!important;
+	 border-radius: 8px!important;
+	 gap: 3px!important;
+}
+
+.gestore-servizi-section-image{
+	width:100%!important;
+	min-height: 180px!important;
+	max-height: 180px!important;
+	border-radius: 8px 8px 0 0;
+	
+}
+.container-card-servizzi{
+	display: flex;
+	justify-content: start!important;
+	 flex-wrap: wrap!important;
+}
+
+/*Aggiungi servizio*/
+.aggiungi-servizio-container, .form-img-aggiungi {
+    background-color: rgba(200, 200, 200, 0.4) !important;
+}
+
+.aggiungi-servizio-container{
+	margin-bottom:40px;
+}
+
+/*.upload-btn {
+    color: white;
+    padding: 3px 8px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgba(70, 70, 226, 0.852);
+    margin: 6px 0 0 15px;
+}*/
+
+img.ciao{
+	width: 70px!important; height: 60px!important;
+}
+.servizio-div-info{
+	display:flex;
+	justify-content: center!important;
+	align-items:center!important;
+	margin-right: 0!important;
+}
+
+/* BUTTON CAROUSEL  */
+.button-37 {
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+
+.button-37:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+
+
+@media (min-width: 768px) {
+  .button-37 {
+    padding: 10px 30px;
+  }
+}
+
+footer{
+    margin-top: auto;
+}
+
+.footer-custom{
+	width: 100%
+}
+
+/*team section */
+.team_section {
+  text-align: center;
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
+.team_section .heading_container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.team_section .team_container {
+  padding: 0 15px;
+}
+
+.team_section .team_container .box {
+  padding: 35px 0 0 0;
+  border: 2px solid gray;
+  border-radius: 8px;
+  overflow: hidden;
+  -webkit-transition: all .1s;
+  transition: all .1s;
+  margin-top: 45px;
+  background: linear-gradient(to bottom, #e4e4e4, #82a5d0);
+}
+
+
+
+.team_section .team_container .box .img-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.team_section .team_container .box .img-box img {
+  width: 120px;
+  border-radius: 100%;
+  border: 5px solid #617be4;
+}
+
+.team_section .team_container .box .detail-box {
+  margin: 25px 0;
+}
+
+.team_section .team_container .box .detail-box h5 {
+  color: white;
+  font-weight: 600;
+  position: relative;
+}
+
+.team_section .team_container .box .social_box {
+  padding: 10px 45px 20px 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.team_section .team_container .box .social_box a {
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.team_section .team_container .box .social_box a:hover {
+  color: #00bbf0;
+}
+
+/*team section end*/
+
+.custom-table{
+	position: relative;
+	margin-top: 30px;
+	margin-left: 250px;
+}
+
+/*tabella servizio*/
+
+.table-containerService{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.box{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.btn-carousel{
+		margin-left: 120px;
+		margin-bottom: 5px;
+}
+
+.img-thumbnail{
+	width: 950px!important;
+	height: 400px!important;
+	margin-bottom: 10px;
+}
+
+/*Bottoni salva madifica Profilo*/
+button.bottone-salva-utente{
+	margin-left: -100px!important;
+}
+
+/*Satistiche*/
+.principale{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	}
+
+.tabelle-statistiche{
+	display: flex;
+	flex-direction:row;
+	width:100%;
+	max-width: 850px;
+	margin: 0 0 40px 100px;
+	flex-basis: 1;
+	
+
+}
+
+table.table-servizi{
+	max-width: 1500px;
+	width: 100%;
+}
+
+.tabella-statistiche{
+	display: flex;
+	flex-direction: column;
+	max-width: 95%;
+	margin-right: 40px;
+	flex-basis: 1;
+}
+
+table.table-statistiche{
+	width:100%;
+	max-width: 850px;
+	min-width: 350px;
+	border:2px solid cornflowerblue;
+	text-align: center;
+	border-radius: 50%!important;
+}
+
+.thead-statistiche{
+	border-radius: 50%!important;
+}
+
+
