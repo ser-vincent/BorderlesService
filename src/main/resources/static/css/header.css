@@ -1,0 +1,94 @@
+/*.bg-color{
+    background-color: transparent;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;  
+
+   
+ 
+    
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;     
+
+}*/
+
+.pulsante-barra{
+	background-color: #82a5d0;
+}
+
+.barra-ricerca{
+	border-top-right-radius: 0!important;
+	border-bottom-right-radius: 0!important;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.nav-link:hover{
+	
+	border-bottom: 2px solid #9fb9f4;
+}
+
+.navbar-nav{
+    display: flex;
+} 
+
+
+.custom_nav-container{
+	display: flex !important;
+    justify-content: center !important;
+    margin: auto;
+    font-weight: 600;
+}
+
+
+.collapse.navbar-collapse{
+    margin-left: auto;
+    text-align: center;
+    
+    
+}
+
+.btn-dropStyle{
+
+    background: transparent; color: black;
+    border: none;
+}
+
+.container-fluid{
+	/*transform: translateX(300px);*/
+}
+
+/*.container-fluid{
+	max-width: 2500px!important;
+	width: 100%!important;
+	display: flex!important;
+	justify-content: center!important;
+}
+
+.header_section{
+	display: flex!important;
+	width: 100%!important;
+	justify-content: center!important;
+}
+
+.custom_nav-container{
+	display: flex!important;
+	justify-content: space-between!important;
+}*/
+
+header{
+	display: flex;
+	max-width: 2500px;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.btn-register:hover{
+	background-color: transparent;
+	color: #528ee9;
+	border: 1px solid;
+}
